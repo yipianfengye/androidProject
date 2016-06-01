@@ -149,3 +149,7 @@ timer = new Timer();
 
 以上就是个人总结的启动页中一些要点或者是需要注意的地方，个人能力不足有不对的地方欢迎指正。
 
+另外对产品研发技术，技巧，实践方面感兴趣的同学可以参考我的：
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51534013">android产品研发（一）-->实用开发规范</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51541277">android产品研发（二）-->启动页优化</a>
+
