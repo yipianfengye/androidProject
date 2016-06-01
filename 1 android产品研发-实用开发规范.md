@@ -440,3 +440,7 @@ LinerLayout组件：ll_container
 
 ###7.4 使用自定义TAG
 在系统打印LOG的时候，使用TAG尽量使用tab，同意的TAG标志。
+
+
+另外对产品研发技术，技巧，实践方面感兴趣的同学可以参考我的：
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51534013">android产品研发（一）-->实用开发规范</a>
