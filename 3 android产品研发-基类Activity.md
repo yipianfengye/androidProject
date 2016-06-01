@@ -201,3 +201,8 @@ public void showResponseCommonMsg(HeaderCommon.ResponseCommonMsg msg) {
 
 
 从上面我们分析的基类内容可以知道一般在涉及Activity的时候都需要重写一个基类Activity，用于重写Activity中的共有逻辑，避免我们在每个Activity中都重写相关的重复逻辑。
+
+另外对产品研发技术，技巧，实践方面感兴趣的同学可以参考我的：
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51534013">android产品研发（一）-->实用开发规范</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51541277">android产品研发（二）-->启动页优化</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51546974">android产品研发（三）-->基类Activity</a>
