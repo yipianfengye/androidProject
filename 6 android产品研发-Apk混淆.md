@@ -265,3 +265,9 @@ Parcelable的子类和Creator静态成员变量不混淆，否则会产生androi
 利用该方案我们可以实现对资源文件的混淆，将apk中所有的资源文件名称都替换为a、b、c、d...，这样也从侧面增加了不良人员反编译apk的难度，同时也减少了apk的大小，有兴趣的同学可以自己尝试一下。
 
 
+另外对产品研发技术，技巧，实践方面感兴趣的同学可以参考我的：
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51534013">android产品研发（一）-->实用开发规范</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51541277">android产品研发（二）-->启动页优化</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51546974">android产品研发（三）-->基类Activity</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51559066">android产品研发（四）-->减小Apk大小</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51569261">android产品研发（五）-->多渠道打包</a>
