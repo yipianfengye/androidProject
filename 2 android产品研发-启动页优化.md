@@ -113,7 +113,7 @@ timer = new Timer();
 而这里的@color/c10就是我们定义的白色色值，这样经过处理之后App启动时就不会出现黑屏的效果了。
 
 **- Application启动速度优化**
-由于我们的应用启动过程首先会执行Application的创建于执行其生命周期方法（onCreate方法），具体可参见我的android应用进程启动流程：http://blog.csdn.net/qq_23547831/article/details/51119333
+由于我们的应用启动过程首先会执行Application的创建于执行其生命周期方法（onCreate方法），具体可参见我的android应用进程启动流程：<a href="http://blog.csdn.net/qq_23547831/article/details/51119333"> android源码解析之（十一）-->应用进程启动流程</a>
 
 所以提高app的启动速度，加快Application的执行时间也是一个很重要的方面，这里我暂时总结了几条原则：
 
