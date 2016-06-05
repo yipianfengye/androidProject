@@ -145,7 +145,7 @@ timer = new Timer();
         return super.onKeyDown(keyCode, event);
     }
 ```
-这里我们重写启动页面Activity的onKeyDown方法，首先判断用户按下的是否是返回按键，若是的话则直接返回true，屏蔽返回按键的后续执行逻辑。关于返回按键的执行流程，可参考我的android系统返回按键执行流程：http://blog.csdn.net/qq_23547831/article/details/51513771
+这里我们重写启动页面Activity的onKeyDown方法，首先判断用户按下的是否是返回按键，若是的话则直接返回true，屏蔽返回按键的后续执行逻辑。关于返回按键的执行流程，可参考我的android系统返回按键执行流程：<a href="http://blog.csdn.net/qq_23547831/article/details/51513771"> android源码解析（二十九）-->应用程序返回按键执行流程</a>
 
 以上就是个人总结的启动页中一些要点或者是需要注意的地方，个人能力不足有不对的地方欢迎指正。
 
