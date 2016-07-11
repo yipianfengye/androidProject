@@ -92,7 +92,7 @@ public class MTest {
 - 我们所写的测试用例方法需要添加名称为Test的注解，否则的话，就找不到测试方法。
 
 比如我们去掉注解Test的话：
-![这里写图片描述](http://img.blog.csdn.net/20160711160053806)
+![image](http://img.blog.csdn.net/20160711160053806)
 
 再次执行的话，就找不到可执行的测试函数了。
 
@@ -106,7 +106,7 @@ public class MTest {
     }
 ```
 执行之后可以发现：
-![这里写图片描述](http://img.blog.csdn.net/20160711160510030)
+![image](http://img.blog.csdn.net/20160711160510030)
 
 报错了，错误说明也很详细，说的是我们的测试函数需要设置为Public的，所以我们在编写测试函数的时候需要注意两点：
 
@@ -120,28 +120,28 @@ public class MTest {
 - 直接在源码中右键执行
 
 编写完成之后，如何运行呢？
-![这里写图片描述](http://img.blog.csdn.net/20160711160715814)
+![image](http://img.blog.csdn.net/20160711160715814)
 
 可以选中需要测试的方法名称，然后右击，弹出操作提示框，这是选择run 方法名就可以了，这时候就可以执行该测试方法了。
 
 测试用例里面为我们提供了测试过程中可能需要的系统环境对象
-![这里写图片描述](http://img.blog.csdn.net/20160711160833878)
+![image](http://img.blog.csdn.net/20160711160833878)
 
 比如：application，context等等；以后我们再次编写单元测试的时候是不是很方便了呢？
 
 - android studio菜单中执行测试用例
 
 － 选择run－edit configuration
-![这里写图片描述](http://img.blog.csdn.net/20160711142304598)
+![image](http://img.blog.csdn.net/20160711142304598)
 
 － 添加android tests用例
-![这里写图片描述](http://img.blog.csdn.net/20160711142344404)
+![image](http://img.blog.csdn.net/20160711142344404)
 
 － 配置tests方法
-![这里写图片描述](http://img.blog.csdn.net/20160711142441553)
+![image](http://img.blog.csdn.net/20160711142441553)
 
 点击ok，这时候run区域就已经出现了我们刚刚添加的测试用例了
-![这里写图片描述](http://img.blog.csdn.net/20160711142557158)
+![image](http://img.blog.csdn.net/20160711142557158)
 
 
 **一个简单的单元测试小例子：**
@@ -166,7 +166,7 @@ public class MTest {
 ```
 
 - 执行
-![这里写图片描述](http://img.blog.csdn.net/20160711162003082)
+![image](http://img.blog.csdn.net/20160711162003082)
 
 这样我们就可以不启动我们的App就验证正则表达式的正确与否了。
 
