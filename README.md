@@ -24,3 +24,4 @@
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51868451">android产品研发（十九）-->android studio中的单元测试</a>
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51833080">android产品研发（二十）-->代码Review</a>
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51868453">android产品研发（二十一）-->android中的UI优化</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51868496">android产品研发（二十二）-->android实用调试技巧</a>
