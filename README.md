@@ -5,28 +5,28 @@
 下面就是我准备讲解的一些产品研发系列的内容：
 （其中红色字体的文章是我已经写完的部分，其他的是我还没写但是打算写的东西，这些东西大概覆盖了android产品研发过程中涉及到的各个方面，当然了有可能后续也会有所补充）
 
-<a href="http://blog.csdn.net/qq_23547831/article/details/51534013"><font color="red">android产品研发（一）-->实用开发规范</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51541277"><font color="red">android产品研发（二）-->启动页优化</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51546974"><font color="red">android产品研发（三）-->基类Activity</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51559066"><font color="red">android产品研发（四）-->减小Apk大小</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51569261"><font color="red">android产品研发（五）-->多渠道打包</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51581491"><font color="red">android产品研发（六）-->Apk混淆</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51587927"> <font color="red">android产品研发（七）-->Apk热修复</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51598041"><font color="red">android产品研发（八）-->App数据统计</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51612429"><font color="red">android产品研发（九）-->App网络传输协议</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51655330"><font color="red">android产品研发（十）-->不使用静态变量保存数据</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51685310"><font color="red">android产品研发（十一）-->使用scheme实现页面跳转</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51690047"><font color="red">android产品研发（十二）-->App长连接实现</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51719389"><font color="red">android产品研发（十三）-->App轮训操作</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51764773"><font color="red">android产品研发（十四）-->App升级与更新</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51779528"><font color="red">android产品研发（十五）-->内存对象序列化</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51809497"><font color="red">android产品研发（十六）-->开发者选项</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51812985"><font color="red">android产品研发（十七）-->Hybird开发</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51820139"><font color="red">android产品研发（十八）-->webview问题集锦</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51868451"><font color="red">android产品研发（十九）-->android studio中的单元测试</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51833080"><font color="red">android产品研发（二十）-->代码Review</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51868453"><font color="red">android产品研发（二十一）-->android中的UI优化</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51868496"><font color="red">android产品研发（二十二）-->android实用调试技巧</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51534013"><font color="red">android产品研发（一）-->实用开发规范</font></a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51541277"><font color="red">android产品研发（二）-->启动页优化</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51546974"><font color="red">android产品研发（三）-->基类Activity</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51559066"><font color="red">android产品研发（四）-->减小Apk大小</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51569261"><font color="red">android产品研发（五）-->多渠道打包</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51581491"><font color="red">android产品研发（六）-->Apk混淆</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51587927"> <font color="red">android产品研发（七）-->Apk热修复</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51598041"><font color="red">android产品研发（八）-->App数据统计</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51612429"><font color="red">android产品研发（九）-->App网络传输协议</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51655330"><font color="red">android产品研发（十）-->不使用静态变量保存数据</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51685310"><font color="red">android产品研发（十一）-->使用scheme实现页面跳转</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51690047"><font color="red">android产品研发（十二）-->App长连接实现</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51719389"><font color="red">android产品研发（十三）-->App轮训操作</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51764773"><font color="red">android产品研发（十四）-->App升级与更新</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51779528"><font color="red">android产品研发（十五）-->内存对象序列化</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51809497"><font color="red">android产品研发（十六）-->开发者选项</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51812985"><font color="red">android产品研发（十七）-->Hybird开发</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51820139"><font color="red">android产品研发（十八）-->webview问题集锦</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51868451"><font color="red">android产品研发（十九）-->android studio中的单元测试</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51833080"><font color="red">android产品研发（二十）-->代码Review</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51868453"><font color="red">android产品研发（二十一）-->android中的UI优化</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51868496"><font color="red">android产品研发（二十二）-->android实用调试技巧</a>
 
 <br>android产品研发之代码保存静态秘钥；
 <br>android产品研发之AS打包apk，aar，jar包；
