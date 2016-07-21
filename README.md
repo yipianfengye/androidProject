@@ -8,6 +8,8 @@
 （其中红色字体的文章是我已经写完的部分，其他的是我还没写但是打算写的东西，这些东西大概覆盖了android产品研发过程中涉及到的各个方面，当然了有可能后续也会有所补充）
 
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51534013"><font color="red">android产品研发（一）-->实用开发规范</font></a>
+> 本文中选择将开发规范作为这个系列的第一篇文章，就是个人感觉产品研发过程中，开发规范真的很重要，很重要，非常重要（重要的事情说三遍），一个好的开发规范可以让团队中的人对他人的代码更熟悉，新人也可以更好的了解产品的业务逻辑。开发规范并不是一个死的一成不变的，每个团队可能都有自己的开发规范，只要是适合团队的开发规范就是最好的开发规范...
+
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51541277"><font color="red">android产品研发（二）-->启动页优化</a>
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51546974"><font color="red">android产品研发（三）-->基类Activity</a>
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51559066"><font color="red">android产品研发（四）-->减小Apk大小</a>
