@@ -73,7 +73,10 @@
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51868496"><font color="red">android产品研发（二十二）-->android实用调试技巧</a>
 > 本文我们将讲解android中的调试技巧。程序调试，是将编制的程序投入实际运行前，用手工或编译程序等方法进行测试，修正语法错误和逻辑错误的过程。这是保证计算机信息系统正确性的必不可少的步骤。在android开发过程中熟练的使用调试技巧是一个很重要的方面。android的调试技巧包括熟练使用android中的日志API，自定义android日志框架，通过gradle配置调试日志，android studio的调试技巧等等。通过对本文的学习我们能够对android中调试技巧有一个大概的了解...
 
-<br>android产品研发之代码保存静态秘钥；
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51953926"><font color="red">android产品研发（二十三）-->android中保存静态秘钥实践</a>
+> 本文我们将讲解一个android产品研发中可能会碰到的一个问题：如何在App中保存静态秘钥以及保证其安全性。许多的移动app需要在app端保存一些静态字符串常量，其可能是静态秘钥、第三方appId等。在保存这些字符串常量的时候就涉及到了如何保证秘钥的安全性问题。如何保证在App中静态秘钥唯一且正确安全，这是一个很重要的问题，公司的产品中就存在着静态字符串常量类型的秘钥，所以一个明显的问题就是如何生成秘钥，保证秘钥的安全性？
+
+
 <br>android产品研发之AS打包apk，aar，jar包；
 <br>android产品研发之Https请求；
 <br>android产品研发之拦截App请求；
