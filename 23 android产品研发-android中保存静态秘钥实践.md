@@ -42,11 +42,15 @@
 
 - 通过配置gradle的方式保存秘钥信息；
 
+- 通过配置string.xml的方式保存秘钥信息；
+
 **文件方式：**显而易见的通过保存文件的方式保存秘钥信息，有一个问题就是，如果用户恶意删除App保存的秘钥信息，那么App就无法使用默认的秘钥信息了，这样秘钥的唯一性也就无法保证。
 
 **数据库方式：**和通过文件的方式保存秘钥信息一样，通过数据库保存也是无法保证恶意用户删除数据库信息，这样我们的App就丢失了默认的秘钥信息。
 
 **gradle配置：**我们通过下面的gradle配置变量的方式，来讲解如何在gradle配置变量信息。
+
+**string.xml：**在下面我们做详细的介绍。
 
 **通过gradle配置变量：**
 
@@ -104,19 +108,31 @@ public final class BuildConfig {
   public static final String appKey = "xxx";
 }
 ```
-可以发现通过配置gradle的方式配置静态秘钥反编译的时候无法找到秘钥的实现，因此有很强的安全性，而同时避免了被用户的恶意删除，所以通过gradle配置字符串的方式保存app中的静态秘钥是一个不错的选择。
+可以发现通过配置gradle的方式配置静态秘钥反编译的时候也是找到秘钥的，但是增加了逆向的难度，而且避免了被用户的恶意删除，所以通过gradle配置字符串的方式保存app中的静态秘钥是一个不错的选择。
+
+
+**通过string.xml配置秘钥信息**
+
+通过string.xml配置秘钥信息也是一个不错的选择。在string.xml中定义字符串值之后，通过代码获取反编译apk效果如下：
+
+![image](http://img.blog.csdn.net/20160722115648713)
+
+可以发现这里无法显式的展示出string字符串值，但是这里出现了string字符串的ID值，但是需要说明的是恶意攻击是可以通过string的ID之在R.java文件中查找到相应的string名称，进而在string.xml中找到字符串值。但是这样也是增加了反编译的难度，相对来说也是一个比较不错的选择。
+
 
 **产品中保存静态秘钥实践：**
 
-最终经过比对各种静态秘钥存储方案，我们决定使用gradle配置 + 静态代码 + 字符串运算的方式实现静态秘钥的存储。
+最终经过比对各种静态秘钥存储方案，我们决定使用gradle配置 + 静态代码 + 字符串运算 + string.xml值的方式实现静态秘钥的存储。
 
-首先将静态秘钥分为三部分：
+首先将静态秘钥分为四部分：
 
 - 第一部分通过gradle配置的方式存储；
 
 - 第二部分通过java硬编码的方式存储；
 
 - 第三部分通过java字符串拼接运算的方式存储；
+
+- 第四部分通过string.xml保存；
 
 
 **获取appKey第一部分字符串：**
@@ -165,6 +181,23 @@ public static String getBK3() {
 }
 ```
 
+**获取appKey第四部分字符串**
+
+- 在string.xml中定义appKey的第四部分
+
+```
+<string name="bk4">chs</string>
+```
+
+- 在代码中获取string中定义的字符串值
+
+```
+public static String getBk4() {
+	mContext().getResources().getString(R.string.bk4);
+}
+```
+
+
 获取最终的appKey字符串：
 
 ```
@@ -173,7 +206,7 @@ public static String getBK3() {
  */
 public static byte[] getDefaultKey() {
 		StringBuffer sb = new StringBuffer();
-	    sb.append(getBK1()).append(getBK2()).append(getBk3());
+	    sb.append(getBK1()).append(getBK2()).append(getBk3()).append(getBk4());
             
         return sb.toString();
     }
@@ -188,10 +221,9 @@ public static byte[] getDefaultKey() {
 
 - 在App端保存秘钥不能真正的保证秘钥的安全性，只能增加反编译的难易程度；
 
-- 推荐使用gradle配置的方式配置静态秘钥，反编译的时候无法追踪到gradle的配置文件；
+- 可以使用gradle配置的方式配置静态秘钥，使用string.xml配置秘钥增加逆向反编译的难度；
 
 - 不推荐使用文件，数据库的方式保存静态秘钥，容易被用户恶意删除，而出现不可预知的错误；
-
 
 <br>另外对产品研发技术，技巧，实践方面感兴趣的同学可以参考我的：
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51690047">android产品研发（十二）-->App长连接实现</a>
