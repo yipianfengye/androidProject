@@ -239,14 +239,14 @@ BlockCanary库的使用方式和LeakCanary类似，更多关于其使用方式�
 关于内存泄露其实主要记住一个原则就好：确保对象能够在正确的时机被回收掉。然后我们根据具体内存泄露的场景具体解决就好了。
 
 <br>另外对产品研发技术，技巧，实践方面感兴趣的同学可以参考我的：
-<a href="http://blog.csdn.net/qq_23547831/article/details/51719389">Android产品研发（十三）-->App轮训操作</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51764773">Android产品研发（十四）-->App升级与更新</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51779528">Android产品研发（十五）-->内存对象序列化</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51809497">Android产品研发（十六）-->开发者选项</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51812985">Android产品研发（十七）-->Hybrid开发</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51820139">Android产品研发（十八）-->webview问题集锦</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51868451">Android产品研发（十九）-->Android studio中的单元测试</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51833080">Android产品研发（二十）-->代码Review</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51868453">Android产品研发（二十一）-->Android中的UI优化</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51868496">Android产品研发（二十二）-->Android实用调试技巧</a>
-<a href="http://blog.csdn.net/qq_23547831/article/details/51953926">Android产品研发（二十三）-->Android中保存静态秘钥实践</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51719389">Android产品研发（十三）-->App轮训操作</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51764773">Android产品研发（十四）-->App升级与更新</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51779528">Android产品研发（十五）-->内存对象序列化</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51809497">Android产品研发（十六）-->开发者选项</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51812985">Android产品研发（十七）-->Hybrid开发</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51820139">Android产品研发（十八）-->webview问题集锦</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51868451">Android产品研发（十九）-->Android studio中的单元测试</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51833080">Android产品研发（二十）-->代码Review</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51868453">Android产品研发（二十一）-->Android中的UI优化</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51868496">Android产品研发（二十二）-->Android实用调试技巧</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51953926">Android产品研发（二十三）-->Android中保存静态秘钥实践</a>
