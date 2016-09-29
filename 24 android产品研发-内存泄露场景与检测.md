@@ -167,7 +167,6 @@ if (cursor.moveToNext()) {
 这时候我们应当在doSomeThing之后执行cursor的close方法，关闭资源对象。
 
 ```
-```
 /**
  * 初始化Cursor对象
  */
@@ -208,7 +207,8 @@ EventBus.getDefault().unregister(this);
 （1）比如List列表静态化，只是添加元素而不再使用时不清楚元素；
 （2）map对象只是put，而无remove操作等等；
 
-**（4）关于内存泄露检测的两个开源方案**
+
+**（4）关于内存泄露检测的两个开源方案 **
 
 在项目中使用到了两个开源的内存泄露检测库：
 
