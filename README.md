@@ -79,12 +79,14 @@
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/52671165"><font color="red"> Android产品研发（二十四）-->内存泄露场景与检测</a>
 > 本文我们将讲解一下关于Android开发过程中常见的内存泄露场景与检测方案。Android系统为每个应用程序分配的内存是有限的，当一个应用中产生的内存泄漏的情况比较多时，这就会导致应用所需要的内存超过这个系统分配的内存限额，进而造成了内存溢出而导致应用崩溃。在实际的开发过程中我们由于对程序代码的不当操作随时都有可能造成内存泄露...
 
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/52723149"><font color="red"> Android产品研发（二十五）-->Android开发MVC/MVVM/MVP框架</a>
+> 本文我们将讲解Android开发中常常涉及到的MVC/MVP/MVVM等模式的基本概念。许多童鞋对Android开发中涉及到的MVC、MVP、MVVM这三种模式不是太清楚，我认为无论是MVC、MVP亦或者是MVVM都是一种代码组织方式，通过这种代码组织方式能够让代码更有层次感，各个层次主要负责各自的工作，这样降低了整个项目的代码逻辑耦合度与可读性...
+
 
 <br>android产品研发之Https请求；
 <br>android产品研发之拦截App请求；
 <br>android产品研发之定位服务；
 <br>android产品研发之持续集成；
-<br>android产品研发之MVP框架；
 <br>android产品研发之常用框架；
 <br>android产品研发之git使用；
 <br>android产品研发之产品加固与加密；
